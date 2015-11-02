@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controller.SerialTestController">
+   <children>
+      <Label layoutX="53.0" layoutY="37.0" text="Serial Test" />
+      <Label layoutX="53.0" layoutY="90.0" text="Name" />
+      <Label layoutX="53.0" layoutY="147.0" text="Age" />
+      <TextField fx:id="nameField" layoutX="124.0" layoutY="86.0" />
+      <TextField fx:id="ageField" layoutX="124.0" layoutY="143.0" />
+      <Button fx:id="serialize" layoutX="124.0" layoutY="223.0" mnemonicParsing="false" onAction="#serializeAction" text="Serialize" />
+      <Label fx:id="getNameLabel" layoutX="373.0" layoutY="90.0" text="Get Name" />
+      <Label fx:id="getAgeLabel" layoutX="373.0" layoutY="147.0" text="Get Age" />
+      <Button fx:id="deserialize" layoutX="373.0" layoutY="223.0" mnemonicParsing="false" onAction="#deserializeAction" text="Deserialize" />
+   </children>
+</AnchorPane>
